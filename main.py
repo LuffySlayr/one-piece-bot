@@ -80,6 +80,7 @@ def monitor_loop():
     send_telegram_alert("בדיקת מערכת", "הבוט מחובר, סורק ועובד מעולה!", "https://one-piece-bot-ggjd.onrender.com", "0")
     """לולאת בדיקה כל 60 שניות"""
     print("🤖 הבוט התחיל לנטר את האתרים...")
+    send_telegram_alert("בדיקת ניסיון", "הודעת בדיקה! הבוט מחובר ופועל פיקס 🔥", "https://google.com", "0")
     while True:
         try:
             check_all_stores()
